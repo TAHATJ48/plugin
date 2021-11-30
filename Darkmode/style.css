@@ -1,0 +1,18 @@
+.logo img {
+    filter: invert(1);
+}
+.menu {
+    background-color: #252836 !important;
+}
+.menu-list a {
+    color : white !important;
+    border-radius: 10px;
+    font-weight: lighter;
+}
+.menu-list a:hover {
+    background-color: #2F3344 !important;
+}
+.menu-list a.active {
+    background-color: #2F3344 !important;
+    border-right: 6px solid #55559A !important;
+}
