@@ -55,3 +55,107 @@
 .semester {
     background-color: grey !important;
 }
+
+.content{
+    background-color: #1F1D2B !important;
+}
+/* HEADER */
+
+
+.header{
+    background-color: #252836  !important;
+    border-bottom: 1px solid grey !important;
+}
+.infos span{
+    color: white !important;
+}
+.user a i{
+    color: white !important;    
+}
+.divider {
+    background-color: grey !important;
+}
+
+/* ACCEUIL */
+
+.dashboard h2{
+    color: white !important;
+}
+.dashboard p {
+    color: white !important;
+}
+.element {
+    border-color: grey !important;
+    background-color: #252836  !important;
+}
+div{
+    color: white !important;    
+}
+h1{
+    color: white !important;    
+}
+h3{
+    color: white !important;
+}
+h2{
+    color: white !important;
+}
+p{
+    color: white !important;    
+}
+.button {
+
+    background-color: #55559A !important;
+    color: white !important;
+
+}
+
+.table{
+    box-sizing: border-box grey;
+    border: 1px solid grey !important;
+    background-color: #252836  !important;
+}
+
+.block{
+    border-color: grey !important;
+    background-color: #252836  !important;
+}
+.block *{
+    color: white !important;
+}
+
+/* PROJETS */
+.tab-panel .element{
+    border-bottom: 1px solid grey !important;
+}
+.tab-panel{
+    color: white !important;
+}
+.date{
+    color: white !important;
+    border-color: grey !important;
+}
+/* Bulletins */
+.mb-4 a{
+    background-color: #55559A !important;
+}
+/* Présence */
+form input {
+    border-color: grey !important;
+    background-color: #252836  !important;
+}
+::placeholder {
+  color: white !important;
+  opacity: 1 !important; }
+
+/* Planning */
+.vuecal__title-bar button{
+color: white !important;
+}
+.vuecal__menu{
+    background-color: #55559A !important;
+}
+.vuecal__title-bar{
+    background-color: #8282BA !important;
+}
+
