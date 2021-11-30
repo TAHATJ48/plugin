@@ -8,7 +8,7 @@
   "content_scripts": [{
     "css": ["style.css"],
     "js": ["script.js"],
-    "matches": ["http://monsite.fr/*"]
+    "matches": ["https://intrabachelors.epitech.digital/student/*"]
   }]
  
 }
