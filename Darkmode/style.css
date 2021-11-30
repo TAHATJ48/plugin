@@ -19,6 +19,9 @@
     background-color: #2F3344 !important;
     border-right: 6px solid #55559A !important;
 }
+div.body div.menu i.closemenu {
+    color: white !important;
+}
 
 /* ------ MES COURS ------ */
 .content {
@@ -85,7 +88,7 @@
     color: white !important;
 }
 .element {
-    border-color: grey !important;
+    border: none !important;
     background-color: #252836  !important;
 }
 div{
@@ -116,7 +119,7 @@ p{
 }
 
 .block{
-    border-color: grey !important;
+    border-color: none !important;
     background-color: #252836  !important;
 }
 .block *{
@@ -125,7 +128,7 @@ p{
 
 /* PROJETS */
 .tab-panel .element{
-    border-bottom: 1px solid grey !important;
+    border: none !important;
 }
 .tab-panel{
     color: white !important;
