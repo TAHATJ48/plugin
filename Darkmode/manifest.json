@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "PLUGIN TAHA NOEMIE ",
+  "version": "0.1.0",
+  "description": "darkmode",
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["script.js"],
+    "matches": ["http://monsite.fr/*"]
+  }]
+ 
+}
