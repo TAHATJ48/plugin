@@ -161,3 +161,15 @@ color: white !important;
     background-color: #8282BA !important;
 }
 
+.vuecal__event{
+    opacity: 0,5 !important;
+background-color: rgba(130, 130, 186, 0.6)!important ;
+
+
+}
+.label {
+    color: white !important;
+}
+.vuecal__cell--today{
+
+}
