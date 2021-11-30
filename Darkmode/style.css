@@ -1,8 +1,11 @@
+/* ------ LEFT MENU ------ */
 .logo img {
     filter: invert(1);
 }
 .menu {
     background-color: #252836 !important;
+    box-shadow: 1px 0 12px 0 rgb(15 15 20 / 80%) !important;
+    border: none !important;
 }
 .menu-list a {
     color : white !important;
@@ -15,4 +18,40 @@
 .menu-list a.active {
     background-color: #2F3344 !important;
     border-right: 6px solid #55559A !important;
+}
+
+/* ------ MES COURS ------ */
+.content {
+    background-color: #1F1D2B !important;
+}
+.aria a {
+    color: #55559A !important;
+    text-decoration: underline;
+}
+.main-content header h2 {
+    color: white !important;
+}
+.main-content div ul li a {
+    background-color: #55559A !important;
+    border-color: #55559A !important;
+}
+.table {
+    background-color: #252836 !important;
+    border: none !important;
+    box-shadow: 1px 0 12px 0 rgb(15 15 20 / 60%) !important;
+}
+.table div.element:nth-child(2n)  {
+    background-color: #2F3344 !important;
+}
+.tab-panel div {
+    color: white !important;
+}
+.table div.element:not(:last-of-type) {
+    border: none !important;
+}
+.dev{
+    background-color: #8282BA !important;
+}
+.semester {
+    background-color: grey !important;
 }
