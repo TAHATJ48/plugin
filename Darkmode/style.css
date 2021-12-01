@@ -34,8 +34,15 @@
 .dark-mode .is-toggle ul li a{
     color: white !important;
 }
+.dark-mode .form-group{
+    background-color: #1F1D2B !important;
+
+}
 .dark-mode .main-content header h2 {
     color: white !important;
+}
+.dark-mode .control input{
+
 }
 .dark-mode .main-content div ul li a {
     background-color: #55559A !important;
