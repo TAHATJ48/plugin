@@ -245,3 +245,21 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+.reading .header{
+    display: none !important;
+}
+.reading .aria{
+    display: none !important;
+}
+.reading .menu{
+    display: none !important;
+}
+.reading .content{
+    width: 100% !important;
+    height: 100% !important;
+}
+.reading .main-content {
+    display: flex !important;
+    align-items: center !important;
+}
