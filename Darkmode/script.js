@@ -28,3 +28,26 @@ input.onclick = () => {
         Darkmode()
     }
 };
+
+var btn = document.createElement("button"); 
+btn.innerHTML = "activer le mode lecture";
+document.body.appendChild(btn);
+
+function Reading () {
+    var element = document.body;
+    element.classList.toggle("reading");
+}
+var read = false
+
+btn.onclick = () => {
+    if (read == false) {
+        Reading()
+        read = true
+        btn.innerHTML = "désactiver le mode lecture";
+    }
+    else{
+        Reading()
+        read = false
+        btn.innerHTML = "activer le mode lecture";
+    }
+};
