@@ -1,6 +1,13 @@
-var btn = document.createElement("button"); 
-btn.innerHTML = "activer le mode sombre";
-document.body.appendChild(btn);
+var label = document.createElement("label"); 
+label.className = "switch";
+var input = document.createElement("input");
+input.type = "checkbox";
+var span = document.createElement("span");
+span.className = "slider round";
+document.querySelector('.header').appendChild(label);
+document.querySelector('.switch').appendChild(input);
+document.querySelector('.switch').appendChild(span);
+
 
 function Darkmode () {
     var element = document.body;
@@ -8,21 +15,16 @@ function Darkmode () {
 }
 
 if (localStorage.isDark == "true") {
-    btn.innerHTML = "désactiver le mode sombre";
     Darkmode();
 }
 
-btn.onclick = () => {
+input.onclick = () => {
     if (localStorage.isDark == "false") {
-        btn.innerHTML = "activer le mode sombre";
         localStorage.setItem("isDark", "true")
         Darkmode()
-        alert(localStorage.getItem("isDark"))
     }
     else{
-        btn.innerHTML = "désactiver le mode sombre";
         localStorage.setItem("isDark", "false")
         Darkmode()
-        alert(localStorage.getItem("isDark"))
     }
 };
