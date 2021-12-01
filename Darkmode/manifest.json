@@ -4,10 +4,11 @@
   "name": "PLUGIN TAHA NOEMIE ",
   "version": "0.1.0",
   "description": "darkmode",
+  "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
  
   "content_scripts": [{
-    "css": ["style.css"],
     "js": ["script.js"],
+    "css":["style.css"],
     "matches": ["https://intrabachelors.epitech.digital/student/*"]
   }]
  

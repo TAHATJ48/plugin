@@ -1,175 +1,172 @@
 /* ------ LEFT MENU ------ */
-.logo img {
+.dark-mode .logo img {
     filter: invert(1);
 }
-.menu {
+.dark-mode .menu {
     background-color: #252836 !important;
     box-shadow: 1px 0 12px 0 rgb(15 15 20 / 80%) !important;
     border: none !important;
 }
-.menu-list a {
+.dark-mode .menu-list a {
     color : white !important;
     border-radius: 10px;
     font-weight: lighter;
 }
-.menu-list a:hover {
+.dark-mode .menu-list a:hover {
     background-color: #2F3344 !important;
 }
-.menu-list a.active {
+.dark-mode .menu-list a.active {
     background-color: #2F3344 !important;
     border-right: 6px solid #55559A !important;
 }
-div.body div.menu i.closemenu {
+.dark-mode div.body div.menu i.closemenu {
     color: white !important;
 }
 
 /* ------ MES COURS ------ */
-.content {
+.dark-mode .content {
     background-color: #1F1D2B !important;
 }
-.aria a {
+.dark-mode.aria a {
     color: #55559A !important;
     text-decoration: underline;
 }
-.main-content header h2 {
+.dark-mode .main-content header h2 {
     color: white !important;
 }
-.main-content div ul li a {
+.dark-mode .main-content div ul li a {
     background-color: #55559A !important;
     border-color: #55559A !important;
 }
-.table {
+.dark-mode .table {
     background-color: #252836 !important;
     border: none !important;
     box-shadow: 1px 0 12px 0 rgb(15 15 20 / 60%) !important;
 }
-.table div.element:nth-child(2n)  {
+.dark-mode .table div.element:nth-child(2n)  {
     background-color: #2F3344 !important;
 }
-.tab-panel div {
+.dark-mode .tab-panel div {
     color: white !important;
 }
-.table div.element:not(:last-of-type) {
+.dark-mode .table div.element:not(:last-of-type) {
     border: none !important;
 }
-.dev{
+.dark-mode .dev{
     background-color: #8282BA !important;
 }
-.semester {
+.dark-mode .semester {
     background-color: grey !important;
 }
 
-.content{
+.dark-mode .content{
     background-color: #1F1D2B !important;
 }
 /* HEADER */
 
 
-.header{
+.dark-mode .header{
     background-color: #1F1D2B !important;
     border-bottom: 1px solid grey !important;
 }
-.infos span{
+.dark-mode .infos span{
     color: white !important;
 }
-.user a i{
+.dark-mode .user a i{
     color: white !important;    
 }
-.divider {
+.dark-mode .divider {
     background-color: grey !important;
 }
 
 /* ACCEUIL */
 
-.dashboard h2{
+.dark-mode .dashboard h2{
     color: white !important;
 }
-.dashboard p {
+.dark-mode .dashboard p {
     color: white !important;
 }
-.element {
+.dark-mode .element {
     border: none !important;
     background-color: #252836  !important;
 }
-div{
+.dark-mode div{
     color: white !important;    
 }
-h1{
+.dark-mode h1{
     color: white !important;    
 }
-h3{
+.dark-mode h3{
     color: white !important;
 }
-h2{
+.dark-mode h2{
     color: white !important;
 }
-p{
+.dark-mode p{
     color: white !important;    
 }
-.button {
+.dark-mode .button {
 
     background-color: #55559A !important;
     color: white !important;
 
 }
 
-.table{
+.dark-mode .table{
     box-sizing: border-box grey;
     background-color: #252836  !important;
 }
 
-.block{
+.dark-mode .block{
     border-color: none !important;
     background-color: #252836  !important;
 }
-.block *{
+.dark-mode .block *{
     color: white !important;
 }
 
 /* PROJETS */
-.tab-panel .element{
+.dark-mode .tab-panel .element{
     border: none !important;
 }
-.tab-panel{
+.dark-mode .tab-panel{
     color: white !important;
 }
-.date{
+.dark-mode .date{
     color: white !important;
     border-color: grey !important;
 }
 /* Bulletins */
-.mb-4 a{
+.dark-mode .mb-4 a{
     background-color: #55559A !important;
 }
 /* Présence */
-form input {
+.dark-mode form input {
     border-color: grey !important;
     background-color: #252836  !important;
 }
-::placeholder {
+.dark-mode ::placeholder {
   color: white !important;
   opacity: 1 !important; }
 
 /* Planning */
-.vuecal__title-bar button{
+.dark-mode .vuecal__title-bar button{
 color: white !important;
 }
-.vuecal__menu{
+.dark-mode .vuecal__menu{
     background-color: #55559A !important;
 }
-.vuecal__title-bar{
+.dark-mode .vuecal__title-bar{
     background-color: #8282BA !important;
 }
 
-.vuecal__event{
+.dark-mode .vuecal__event{
     opacity: 0,5 !important;
 background-color: rgba(130, 130, 186, 0.6)!important ;
 
 
 }
-.label {
+.dark-mode .label {
     color: white !important;
-}
-.vuecal__cell--today{
-
 }
