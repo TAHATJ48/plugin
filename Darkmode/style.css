@@ -27,12 +27,12 @@
 .dark-mode .content {
     background-color: #1F1D2B !important;
 }
-.dark-mode a {
-    color: white !important;
-}
-.dark-mode.aria a {
+.dark-mode .aria a {
     color: #55559A !important;
     text-decoration: underline;
+}
+.dark-mode .is-toggle ul li a{
+    color: white !important;
 }
 .dark-mode .main-content header h2 {
     color: white !important;
@@ -110,10 +110,13 @@
     color: white !important;    
 }
 .dark-mode .button {
-
+    border-top: #55559A !important;
     background-color: #55559A !important;
     color: white !important;
 
+}
+.dark-mode strong{
+    color: white !important;      
 }
 
 .dark-mode .table{
@@ -122,12 +125,12 @@
 }
 
 .dark-mode .block{
-    border-color: none !important;
+    border: 1px #252836 !important;
     background-color: #252836  !important;
+
 }
-.dark-mode .block *{
-    color: white !important;
-}
+
+
 
 /* PROJETS */
 .dark-mode .tab-panel .element{
@@ -146,7 +149,7 @@
 }
 /* Présence */
 .dark-mode form input {
-    border-color: grey !important;
+    border: 1px solid  #252836  !important;
     background-color: #252836  !important;
 }
 .dark-mode ::placeholder {
