@@ -27,6 +27,9 @@
 .dark-mode .content {
     background-color: #1F1D2B !important;
 }
+.dark-mode a {
+    color: white !important;
+}
 .dark-mode.aria a {
     color: #55559A !important;
     text-decoration: underline;
