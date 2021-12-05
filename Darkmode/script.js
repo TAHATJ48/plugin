@@ -31,7 +31,10 @@ input.onclick = () => {
 
 var btn = document.createElement("button"); 
 btn.innerHTML = "activer le mode lecture";
-document.body.appendChild(btn);
+btn.className = "btn"
+parentDiv = document.querySelector('.main-content')
+header = document.querySelector('header')
+parentDiv.insertBefore(btn, header)
 
 function Reading () {
     var element = document.body;
